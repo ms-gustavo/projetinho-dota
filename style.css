@@ -16,6 +16,10 @@
 body {
   background-color: var(--cor0);
   font-family: Arial, Helvetica, sans-serif;
+  background: black
+    url("https://criticalhits.com.br/wp-content/uploads/2013/07/dota-2-logo.jpg")
+    center center no-repeat fixed;
+  background-size: cover;
 }
 
 header {
@@ -23,24 +27,31 @@ header {
   background-image: linear-gradient(to top, var(--cor3), var(--cor0));
   text-align: center;
   color: var(--cor4);
-  padding: 30px;
+  padding: 10px;
 }
 
 nav {
-  margin: 10px 0px;
+  margin: 40px 0px;
   text-align: center;
 }
 
 nav > a {
-  font-size: 1.2em;
+  font-size: 1.4em;
   text-decoration: none;
-  color: var(--cor4);
+  color: white;
   margin: 10px 10px 10px 10px;
   padding: 10px;
   transition: 0.5s;
 }
 
-nav > a:hover {
+nav > #iluminados:hover {
+  text-decoration: underline;
+  color: white;
+  background-color: var(--cor2);
+  border-radius: 5px;
+  font-weight: bolder;
+}
+nav > #temidos:hover {
   text-decoration: underline;
   color: var(--cor4);
   background-color: var(--cor2);
@@ -60,40 +71,31 @@ main {
 
 main img {
   width: 100%;
+  border-radius: 10px;
 }
 
 main h1 {
-  font-size: 3em;
-  background-image: linear-gradient(
-    to right,
-    transparent,
-    var(--cor3),
-    transparent
-  );
+  font-size: 4em;
+  background-image: linear-gradient(to right, transparent, white, transparent);
 }
 
 main h2 {
-  font-size: 2em;
-  background-image: linear-gradient(
-    to right,
-    transparent,
-    var(--cor3),
-    transparent
-  );
+  font-size: 3em;
+  background-image: linear-gradient(to right, transparent, white, transparent);
 }
 
 p {
+  background-color: rgba(255, 255, 255, 0.486);
+  color: var(--cor4);
   font-family: monospace;
   margin: 15px 10px;
-  font-size: 1.2em;
+  font-size: 1.5em;
   text-align: justify;
   text-indent: 20px;
   line-height: 1.2em;
   font-weight: bolder;
-}
-
-.iluminados {
-  color: white;
+  padding: 5px;
+  border-radius: 10px 0px;
 }
 
 aside {
