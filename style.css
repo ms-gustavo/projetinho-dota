@@ -190,3 +190,8 @@ footer p {
   padding: 5px;
   margin: 0px;
 }
+
+#fandom {
+  text-decoration: underline;
+  color: black;
+}
