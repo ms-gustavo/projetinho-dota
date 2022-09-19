@@ -196,17 +196,10 @@ footer p {
   color: black;
 }
 
-.showTab {
-  background-color: rgba(255, 255, 255, 0.486);
-  color: var(--cor4);
-  font-family: monospace;
-  font-size: 1.2em;
-  cursor: pointer;
-}
-
-#tab {
+table {
   border-collapse: collapse;
-  width: 100%;
+  margin: 10px auto;
+  background-color: rgba(255, 255, 255, 0.425);
 }
 
 tr,
@@ -214,14 +207,28 @@ td,
 th {
   border: 1px solid black;
   padding: 5px;
+  font-weight: bold;
 }
 
-div > #tab {
-  display: none;
+details > summary {
+  background-color: rgba(255, 255, 255, 0.486);
+  width: 50%;
+  color: var(--cor4);
+  font-family: monospace;
+  margin: 10px auto;
+  font-size: 1.3em;
+  text-align: center;
+  box-shadow: 2px 1px 5px 2px #00000085;
+  border-radius: 10px;
+  cursor: pointer;
 }
 
-div:hover > #tab {
-  display: block;
-  margin-left: 25%;
-  cursor: auto;
+.strenght {
+  background-color: rgba(255, 0, 0, 0.459);
+}
+.agility {
+  background-color: rgba(0, 128, 0, 0.459);
+}
+.inteligence {
+  background-color: rgba(0, 0, 255, 0.459);
 }
