@@ -232,3 +232,7 @@ details > summary {
 .inteligence {
   background-color: rgba(0, 0, 255, 0.459);
 }
+
+#container {
+  overflow-x: auto;
+}
