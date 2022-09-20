@@ -28,6 +28,7 @@
             <img
               src="imagens/radianversusdire.jpg"
               alt="Iluminados versus Temidos"
+              class="dotaImg"
             />
           </picture>
           <h1>Iluminados versus Temidos</h1>
@@ -41,8 +42,8 @@
             evento cataclísmico.
           </p>
           <figure>
-            <img src="./imagens/mad-moon.jpg" alt="Mad Moon" id="sideImg">
-              <figcaption id="sideTitle">Mad Moon ou Lua Louca</figcaption>
+            <img src="./imagens/mad-moon.jpg" alt="Mad Moon" id="sideImg" />
+            <figcaption id="sideTitle">Mad Moon ou Lua Louca</figcaption>
           </figure>
           <h2>Criação, Órbita e Destruição</h2>
           <p class="principal">
@@ -67,12 +68,22 @@
           </p>
           <div id="stones">
             <figure>
-            <img src="imagens/direstone.png" alt="Pedra Temida" id="sideImg"></figure>
+              <img
+                src="imagens/direstone.png"
+                alt="Pedra Temida"
+                id="sideImg"
+              />
+            </figure>
             <figcaption id="sideTitle1">Pedra Temida</figcaption>
           </div>
           <div id="stones">
             <figure>
-            <img src="imagens/radiantore.png" alt="Minério Radiante" id="sideImg"></figure>
+              <img
+                src="imagens/radiantore.png"
+                alt="Minério Radiante"
+                id="sideImg"
+              />
+            </figure>
             <figcaption id="sideTitle2">Minério Radiante</figcaption>
           </div>
           <h2>Pós Destruição</h2>
@@ -98,7 +109,7 @@
             <source
               media="(max-width: 805px)"
               srcset="imagens/radiant-small.jpg" />
-            <img src="imagens/radiant.jpg" alt="Iluminados"
+            <img class="dotaImg" src="imagens/radiant.jpg" alt="Iluminados"
           /></picture>
           <h2 class="iluminados">Iluminados</h2>
           <p class="principal">
@@ -118,14 +129,14 @@
             conhecido por desenterrar <strong>Minério Radiante</strong>.
           </p>
           <details>
-          <summary>Heróis Radiantes</summary>
-          <div id="container">
-            <table id="tab">
-              <colgroup>
-                <col class="strenght">
-                <col class="agility">
-                <col class="inteligence">
-              </colgroup>
+            <summary>Heróis Radiantes</summary>
+            <div id="container">
+              <table id="tab">
+                <colgroup>
+                  <col class="strenght" />
+                  <col class="agility" />
+                  <col class="inteligence" />
+                </colgroup>
                 <thead>
                   <tr>
                     <th scope="col">Força</th>
@@ -249,15 +260,15 @@
                     <td></td>
                     <td></td>
                   </tr>
-              </tbody>
-            </table>
-          </div>
-        </details>
+                </tbody>
+              </table>
+            </div>
+          </details>
           <picture>
             <source
               media="(max-width: 805px)"
               srcset="imagens/dire-small.jpg" />
-            <img src="imagens/dire.jpg" alt="Temidos"
+            <img class="dotaImg" src="imagens/dire.jpg" alt="Temidos"
           /></picture>
           <h2 class="temidos">Temidos</h2>
           <p class="principal">
@@ -280,9 +291,9 @@
             <div id="container">
               <table id="tab">
                 <colgroup>
-                  <col class="strenght">
-                  <col class="agility">
-                  <col class="inteligence">
+                  <col class="strenght" />
+                  <col class="agility" />
+                  <col class="inteligence" />
                 </colgroup>
                 <thead>
                   <tr>
@@ -401,66 +412,121 @@
               </table>
             </div>
           </details>
-          <br>
+          <br />
           <aside>
             <h3>Alguns hérois</h3>
-            <p>
-            <ul>
-              <li>
-                <a
-                  href="https://www.dota2.com/hero/nature'sprophet"
-                  class="hero"
-                  target="_blank"
-                  >Nature's Prophet</a>
-              </li>
-              <li>
-                <a
-                  href="https://www.dota2.com/hero/enchantress"
-                  class="hero"
-                  target="_blank"
-                  >Enchantress</a
-                >
-              </li>
-              <li>
-                <a
-                  href="https://www.dota2.com/hero/ursa"
-                  class="hero"
-                  target="_blank"
-                  >Ursa</a
-                >
-              </li>
-              <li>
-                <a
-                  href="https://www.dota2.com/hero/pudge"
-                  class="hero"
-                  target="_blank"
-                  >Pudge</a
-                >
-              </li>
-              <li>
-                <a
-                  href="https://www.dota2.com/hero/tidehunter"
-                  class="hero"
-                  target="_blank"
-                  >Tidehunter</a
-                >
-              </li>
-              <li>
-                <a
-                  href="https://www.dota2.com/hero/Lich"
-                  class="hero"
-                  target="_blank"
-                  >Lich</a
-                >
-              </li>
-            </ul>
-          </p>
+            <h4 id="typeHeroes">Radiantes</h4>
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <figure class="hero">
+                    <figcaption class="heroName str">Kunkka</figcaption>
+                    <img src="imagens/kunkka.png" alt="Kunkka">
+                  </figure>
+                </div>
+                <div class="flip-card-back">
+                  <div class="card">
+                    <img src="imagens/kunkkacard.jpg" alt="Kunkka Card" />
+                  </div>
+                </div>
+              </div>
+            </div>
+              <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <figure class="hero">
+                    <figcaption class="heroName agi">Mirana</figcaption>
+                    <img src="imagens/mirana.png" alt="">
+                  </figure>
+                  
+                </div>
+                <div class="flip-card-back">
+                  <div class="card">
+                    <img src="imagens/miranacard.jpg" alt="Mirana Card" />
+                  </div>
+                </div>
+              </div>
+            </div>
+              <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <figure class="hero">
+                    <figcaption class="heroName int">Puck</figcaption>
+                    <img src="imagens/puck.png" alt="Puck">
+                  </figure>
+                </div>
+                <div class="flip-card-back">
+                  <div class="card">
+                    <img src="imagens/puckcard.jpg" alt="Puck Card" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <h4 id="typeHeroes">Temidos</h4>
+              <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <figure class="hero">
+                    <figcaption class="heroName str">Pudge</figcaption>
+                    <img src="imagens/pudge.png" alt="Pudge">
+                  </figure>
+                </div>
+                <div class="flip-card-back">
+                  <div class="card">
+                    <img src="imagens/pudgecard.jpg" alt="Pudge Card" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+              <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <figure class="hero">
+                    <figcaption class="heroName agi">Faceless Void</figcaption>
+                      <img src="imagens/void.png" alt="Faceless Void">
+                  </figure>
+                </div>
+                <div class="flip-card-back">
+                  <div class="card">
+                    <img src="imagens/voidcard.jpg" alt="Faceless Void Card" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+              <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <figure class="hero">
+                    <figcaption class="heroName int">Invoker</figcaption>
+                      <img src="imagens/invoker.png" alt="Invoker">
+                  </figure>
+                </div>
+                <div class="flip-card-back">
+                  <div class="card">
+                    <img src="imagens/invokercard.jpg" alt="Invoker Card" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
           </aside>
         </article>
       </section>
     </main>
     <footer>
-      <p>Informações retiradas do <a href="https://dota2.fandom.com/wiki/Dota_2_Wiki" target="_blank" id="fandom">Dota Fandom Wiki</a> | Criado por Gustavo Maia, também conhecido como Gugario.</p>
+      <p>
+        Informações retiradas do
+        <a
+          href="https://dota2.fandom.com/wiki/Dota_2_Wiki"
+          target="_blank"
+          id="fandom"
+          >Dota Fandom Wiki</a
+        >
+        | Criado por Gustavo Maia, também conhecido como Gugario.
+      </p>
     </footer>
   </body>
 </html>
