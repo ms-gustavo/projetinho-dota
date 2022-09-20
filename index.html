@@ -286,9 +286,9 @@
             embutido nas construções dos <strong>anciões dos Dire</strong>, bem
             como no equipamento de criaturas dos <strong>Temidos</strong>.
           </p>
-          <h2 onclick="on()" style="cursor: pointer;">Heróis Temidos</h2>
-          <div id="overlay" onclick="off()">
-            
+          <details>
+            <summary>Heróis Temidos</summary>
+            <div id="container">
               <table id="tab">
                 <colgroup>
                   <col class="strenght" />
@@ -411,6 +411,7 @@
                 </tbody>
               </table>
             </div>
+          </details>
           <br />
           <aside>
             <h3>Alguns hérois</h3>
@@ -527,14 +528,5 @@
         | Criado por Gustavo Maia, também conhecido como Gugario.
       </p>
     </footer>
-    <script>
-      function on() {
-        document.getElementById("overlay").style.display = "block"
-      }
-
-      function off() {
-        document.getElementById("overlay").style.display = "none"
-      }
-    </script>
   </body>
 </html>
