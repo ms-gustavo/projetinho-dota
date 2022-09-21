@@ -256,6 +256,7 @@ details > summary {
   width: 250px;
   height: 195px;
   perspective: 1000px;
+  cursor: default;
 }
 .hero {
   width: 100%;
