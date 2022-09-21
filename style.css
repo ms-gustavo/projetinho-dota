@@ -8,9 +8,19 @@
   --cor4: #0d0d0d;
 }
 
+.mySlides {
+  display: none;
+}
+
+.slideImg {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 1px 1px 9px 1px rgba(0, 0, 0, 0.63);
+}
 * {
   margin: 0px;
   padding: 0px;
+  box-sizing: border-box;
 }
 
 html {
@@ -39,8 +49,6 @@ header {
 }
 
 nav {
-  position: -webkit-sticky;
-  position: sticky;
   top: 0;
   margin: 40px 0px;
   padding: 10px;
@@ -87,7 +95,25 @@ main {
   border-bottom-right-radius: 10px;
 }
 
-.dotaImg,
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 2s;
+}
+@keyframes fade {
+  from {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 #sideImg {
   width: 100%;
   border-radius: 10px;

@@ -19,19 +19,25 @@
       <a href="#dire" id="temidos">Temidos</a>
     </nav>
     <main>
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <img class="slideImg" src="imagens/blood.jpg">
+        </div>
+        <div class="mySlides fade">
+          <img class="slideImg" src="imagens/invokerwalpp.jpg">
+        </div>
+        <div class="mySlides fade">
+          <img class="slideImg" src="imagens/jugger.jpg">
+        </div>
+        <div class="mySlides fade">
+          <img class="slideImg" src="imagens/spirits.jpg">
+        </div>
+        <div class="mySlides fade">
+          <img class="slideImg" src="imagens/ti.jpg">
+        </div>
+      <br>
       <section>
         <article>
-          <picture>
-            <source
-              media="(max-width: 805px)"
-              srcset="imagens/radianversusdire-small.jpg"
-            />
-            <img
-              src="imagens/radianversusdire.jpg"
-              alt="Iluminados versus Temidos"
-              class="dotaImg"
-            />
-          </picture>
           <h1>Iluminados versus Temidos</h1>
           <p class="principal">
             Tudo começou com a
@@ -529,5 +535,28 @@
         | Criado por Gustavo Maia, também conhecido como Gugario.
       </p>
     </footer>
+
+    <script>
+        let slideIndex = 0;
+          showSlides();
+
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+
+        function showSlides() {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+            for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";
+            }
+          slideIndex++;
+            if (slideIndex > slides.length) {
+              slideIndex = 1
+            }
+            slides[slideIndex-1].style.display = "block";
+        setTimeout(showSlides, 2200);
+        }     
+    </script>
   </body>
 </html>
