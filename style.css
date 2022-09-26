@@ -8,6 +8,9 @@
   --cor4: #0d0d0d;
 }
 
+.slideshow-container {
+  width: 75vw;
+}
 .mySlides {
   display: none;
 }
@@ -177,13 +180,6 @@ main h2 {
   box-shadow: 1px 1px 1px 2px rgb(0 0 0 / 43%);
 }
 
-aside {
-  background-color: transparent;
-  padding: 10px;
-  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.425);
-  border-radius: 10px;
-}
-
 p {
   background-color: rgba(255, 255, 255, 0.486);
   color: var(--cor4);
@@ -203,12 +199,6 @@ aside > h3 {
   margin: -10px -10px 0px -10px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-}
-aside > ul {
-  list-style-type: "\1F517\00A0\00A0";
-  text-align: center;
-  list-style-position: inside;
-  columns: 2;
 }
 
 .hero {
